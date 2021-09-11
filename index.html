@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par ou Ímpar</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Jogo do Par ou Ímpar</h1>
+    <p>Digite um número de 0 a 5.
+        <input type="number" id="myNumber" min="0" max="5">
+    </p>
+
+    <label for=""><input type="radio" name="option" value="par" checked>Par</label> <br>
+    <label for=""><input type="radio" name="option" value="impar" checked>Ímpar</label><br> <br>
+
+    <button onclick="play()">Jogar</button>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
